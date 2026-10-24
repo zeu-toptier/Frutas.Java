@@ -34,4 +34,16 @@ public class Banana extends Frutas {
 
         return null;
     }
+
+    // Verifica a quantidade e atualiza o estoque
+    public boolean comprar(int quantidadeCompra) {
+        if (quantidadeCompra > 0 &&
+            quantidadeCompra <= quantidade) {
+
+            quantidade -= quantidadeCompra;
+            return true;
+        }
+
+        return false;
+    }
 }
