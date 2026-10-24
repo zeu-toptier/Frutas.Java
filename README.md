@@ -6,6 +6,7 @@ Atividade em aula dia 24/10 - Projeto de codigo usando POO
 - Cadastro de tipos de banana e quantidades.
 - Escolha do cliente pelo terminal.
 - Escolha da banana para compra.
+- Verificação da quantidade requisitada
 
 ## Classes
 - Frutas: classe-base.
